@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+
+#header {
+    background-color: whitesmoke;
+    border-bottom: 1px solid #555555;
+    padding: 10px 0 10px 20px;
+    color: #444444
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#drop{
+    padding-top: 30px;
+}
+
+#footer {
+    text-align: center;
+    width: 100%;
+    background-color: whitesmoke;
+    border-top: 1px solid #555555;
+    padding: 25px 0;
+    position: absolute;
+    bottom: 0;
+}

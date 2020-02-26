@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/antv-demo/static/js/main.a10c519b.chunk.js",
+    "main.js.map": "/antv-demo/static/js/main.a10c519b.chunk.js.map",
+    "runtime-main.js": "/antv-demo/static/js/runtime-main.1746ab00.js",
+    "runtime-main.js.map": "/antv-demo/static/js/runtime-main.1746ab00.js.map",
+    "static/js/2.b9c8b183.chunk.js": "/antv-demo/static/js/2.b9c8b183.chunk.js",
+    "static/js/2.b9c8b183.chunk.js.map": "/antv-demo/static/js/2.b9c8b183.chunk.js.map",
+    "index.html": "/antv-demo/index.html",
+    "precache-manifest.777d07ea211c73f30278916b974f4f15.js": "/antv-demo/precache-manifest.777d07ea211c73f30278916b974f4f15.js",
+    "service-worker.js": "/antv-demo/service-worker.js",
+    "static/js/2.b9c8b183.chunk.js.LICENSE.txt": "/antv-demo/static/js/2.b9c8b183.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1746ab00.js",
+    "static/js/2.b9c8b183.chunk.js",
+    "static/js/main.a10c519b.chunk.js"
+  ]
+}
