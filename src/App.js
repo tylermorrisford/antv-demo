@@ -1,24 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import G2 from '@antv/g2';
+
+
+const data = [
+  { genre: 'Sports', sold: 275 },
+  { genre: 'Strategy', sold: 115 },
+  { genre: 'Action', sold: 120 },
+  { genre: 'Shooter', sold: 350 },
+  { genre: 'Other', sold: 150 },
+];
+
+const chart = new G2.Chart({
+  container: 'root',
+  width: 600,
+  height: 300,
+});
+
+chart.source(data);
+
+chart
+  .interval()
+  .position('genre*sold')
+  .color('genre');
+
+chart.render();
 
 function App() {
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* dropdown menu/switch statement to change data */}
+      {chart}
+
     </div>
   );
 }

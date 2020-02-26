@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Antv-Charts Demo "
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -24,11 +24,26 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Antv-Charts</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="header"><h2>Florida Tourism</h2></div>
+    <div id='container'>
+      <div id='drop'>
+          <label for="reports">Choose report:</label>
+
+          <select id="reports">
+            <option value="Tallahassee">Tallahassee</option>
+            <option value="stPete">Tampa / St. Petersburg</option>
+            <option value="stAug">St. Augustine</option>
+          </select>
+      </div>
+      <div id="root">
+    </div>
+    
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -39,5 +54,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <div id="footer">© 2020 | data by Entrada Insights</div>
   </body>
 </html>
